@@ -102,6 +102,7 @@ console.log(dataHoje.getDate());
 console.log(dataHoje.getFullYear());*/
 
 /* Funções */
+/*
 function somar(numero1,numero2) {
     return numero1 + numero2;
 }
@@ -120,3 +121,24 @@ function validarIdade(idade) {
 console.log(somar(7,3));
 console.log(substituir('PHP é top','PHP','JavaScript'));
 console.log(validarIdade(idade));
+*/
+
+/* Alterando elementos no HTML */
+function funcaoBotao() {
+    alert('Alterar o h1');
+    document.getElementById('titulo').innerText ='Você alterou o Título em h1';
+    document.getElementById('subtitulo').innerHTML ="<p>Você criou um parágrafo</p>";
+}
+
+function funcaoElemento(elemento) {
+    elemento.innerHTML = "<strong>Negrito</strong>";
+}
+
+function redirecionar(elemento) {
+    elemento.href = 'https://www.w3schools.com/js/js_examples.asp';
+    elemento.click();
+}
+
+function abrirPagina() {
+    window.open('https://www.w3schools.com/jquery/default.asp');
+}
