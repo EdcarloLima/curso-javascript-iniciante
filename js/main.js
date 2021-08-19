@@ -87,6 +87,7 @@ for (let numeros = 1; numeros <= 5; numeros++) {
 
 
 /* Datas */
+/*
 let dataHoje = new Date();
 alert(dataHoje);
 // exibindo o mês
@@ -98,4 +99,24 @@ console.log(dataHoje.getHours());
 // exibindo o dia
 console.log(dataHoje.getDate());
 // exibindo o ano
-console.log(dataHoje.getFullYear());
+console.log(dataHoje.getFullYear());*/
+
+/* Funções */
+function somar(numero1,numero2) {
+    return numero1 + numero2;
+}
+function substituir(frase,encontrar,substituir) {
+    return frase.replace(encontrar,substituir);
+}
+let idade = prompt('Qual a sua idade');
+function validarIdade(idade) {
+    if (idade >= 18) {
+        return true;
+    } else {
+        return false;
+    }
+}
+// exibindo o resultado
+console.log(somar(7,3));
+console.log(substituir('PHP é top','PHP','JavaScript'));
+console.log(validarIdade(idade));
