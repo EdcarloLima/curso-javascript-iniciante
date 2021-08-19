@@ -56,24 +56,25 @@ console.log(colecao);*/
 
 /* Condicionais */
 
-let idadeFixa = 18;
+/*let idadeFixa = 18;
 if (idadeFixa >= 18) {
     alert('Maior de idade');
 } else {
     alert('Menor de idade');
-}
+}*/
 
 /* Recebendo a idade do usuário */
 
-let idade = prompt('Qual a sua idade?');
+/*let idade = prompt('Qual a sua idade?');
 if (idade >= 18) {
     alert('Maior de idade');
 } else {
     alert('Menor de idade');
-}
+}*/
 
 /* Laços de repetições */
 
+/*
 let contar = 0;
 while (contar < 5) {
     console.log(contar);
@@ -82,4 +83,19 @@ while (contar < 5) {
 
 for (let numeros = 1; numeros <= 5; numeros++) {
     console.log(numeros);
-}
+}*/
+
+
+/* Datas */
+let dataHoje = new Date();
+alert(dataHoje);
+// exibindo o mês
+console.log(dataHoje.getMonth()+1);
+// exibindo os minutos da hora
+console.log(dataHoje.getMinutes());
+// exibindo a hora
+console.log(dataHoje.getHours());
+// exibindo o dia
+console.log(dataHoje.getDate());
+// exibindo o ano
+console.log(dataHoje.getFullYear());
