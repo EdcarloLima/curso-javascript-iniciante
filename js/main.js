@@ -124,6 +124,7 @@ console.log(validarIdade(idade));
 */
 
 /* Alterando elementos no HTML */
+/*
 function funcaoBotao() {
     alert('Alterar o h1');
     document.getElementById('titulo').innerText ='Você alterou o Título em h1';
@@ -141,4 +142,13 @@ function redirecionar(elemento) {
 
 function abrirPagina() {
     window.open('https://www.w3schools.com/jquery/default.asp');
+}*/
+
+
+/* Mouse Over e Mouse Out */
+function trocar(elemento) {
+    elemento.innerHTML = "<strong>O mouse passou aqui (mouse over)</strong>"
+}
+function voltar(elemento) {
+    elemento.innerHTML = "<strong>O mouse saiu daqui (mouse out)</strong>"
 }
