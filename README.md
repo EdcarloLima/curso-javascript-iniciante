@@ -1,2 +1,2 @@
-# curso-programacao-javascript
-Códigos do mini curso de programação para internet com JavaScript
+# curso-javascript-iniciante
+Códigos do mini curso JavaScript para iniciantes
