@@ -1,2 +1,2 @@
-# curso-javascript-iniciante
+# javascript-iniciante
 Códigos do mini curso JavaScript para iniciantes
